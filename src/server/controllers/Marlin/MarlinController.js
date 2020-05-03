@@ -737,10 +737,10 @@ class MarlinController {
             }
 
             // M114: Get Current Position
-            this.queryPosition();
+            // this.queryPosition();
 
             // M105: Report Temperatures
-            this.queryTemperature();
+            // this.queryTemperature();
 
             { // The following criteria must be met to issue a query
                 const notBusy = !(this.history.writeSource);
